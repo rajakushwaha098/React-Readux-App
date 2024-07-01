@@ -1,0 +1,32 @@
+.feature-products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns grid */
+  gap: 20px; /* Space between grid items */
+  padding: 20px; /* Overall padding around the grid */
+}
+
+/* Card style for individual products */
+.feature-products > div {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+
+/* For tablets and small desktops */
+@media screen and (max-width: 1024px) {
+  .feature-products {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns grid */
+    padding: 15px;
+  }
+}
+
+/* For mobile devices and smaller screens */
+@media screen and (max-width: 600px) {
+  .feature-products {
+    grid-template-columns: 1fr; /* Single column grid */
+    padding: 10px;
+  }
+}

@@ -1,0 +1,35 @@
+.container {
+    margin-top: 20px;
+  }
+  
+  .grid-three-column {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .icon {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  h3 {
+    font-size: 1.2rem;
+  }
+  
+
+  @media (max-width: 320px) {
+    .grid-three-column {
+      grid-template-columns: 1fr 1fr 1fr; /* Single column layout */
+      gap: 3px; /* Minimal gap */
+    }
+  
+    .icon {
+      font-size: 0.5rem; /* Further reduce icon size */
+      margin-bottom: 5px; /* Reduce margin below icon */
+    }
+  
+    h3 {
+      font-size: 0.5rem; /* Reduce heading size */
+    }
+  }

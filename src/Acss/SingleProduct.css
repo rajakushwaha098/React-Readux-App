@@ -1,0 +1,92 @@
+/* Container styles */
+
+.container {
+  position: relative;
+top: 100px;
+  max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Grid styles */
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  /* Product images styles */
+  .product_images img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Product data styles */
+  .product-data {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .product-data h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .product-data-price {
+    font-size: 1.2rem;
+  }
+  
+  .product-data-price.product-data-real-price {
+    font-weight: bold;
+    color: #ff0000; /* Red color for deal of the day price */
+  }
+  
+  .product-data p {
+    margin-bottom: 10px;
+  }
+  
+  /* Product warranty styles */
+  .product-data-warranty {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .product-warranty-data {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .product-warranty-data p {
+    margin-left: 5px;
+  }
+  
+  /* Warranty icon styles */
+  .warranty-icon {
+    font-size: 24px;
+  }
+  
+  /* Product info styles */
+  .product-data-info p {
+    margin-bottom: 5px;
+  }
+  
+  /* Add to cart styles */
+  .add-to-cart {
+    margin-top: 20px;
+  }
+  
+  .add-to-cart button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-to-cart button:hover {
+    background-color: #0056b3;
+  }
+  

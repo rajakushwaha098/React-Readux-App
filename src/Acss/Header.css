@@ -1,0 +1,163 @@
+.store-logo{
+
+  position: relative;
+
+  /* margin-top: 1%; */
+  /* height: -500px; */
+  padding: 6px;
+}
+
+
+.logo-img{
+
+  height: 70px;
+  width:50px;
+}
+
+
+  .navbar{
+    position: relative;
+    margin-top: -90px;
+    margin-left: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 10px 20px 0px -200px; */
+    height: 120px; 
+  }
+  
+
+
+
+
+   .navbar-link {
+    /* margin-right: 90px; */
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+  } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* For screens up to 320px (very small devices) */
+@media screen and (max-width: 320px) {
+ 
+
+  .logo-img{
+    height: 20px;
+    width: 50px;
+  }
+
+  .store-logo{
+
+    position: relative;
+  
+    /* margin-top: 1%; */
+    padding: 1px;
+  }
+  
+  
+  
+    .navbar{
+      position: absolute;
+      top: -30px;
+      margin-left: 10%;
+      display: flex;
+      justify-content: space-between;
+      /* align-items: center; */
+      /* padding: 10px 20px 0px -200px; */
+      /* height: 10px;  */
+    }
+    
+  
+  
+  
+  
+     .navbar-link {
+      /* margin-right: 90px; */
+      color: #333;
+      text-decoration: none;
+      font-weight: bold;
+    } 
+  
+
+}
+
+
+
+
+
+
+
+
+/* For screens up to 400px (small devices) */
+@media screen   and (min-width: 320px)   and (max-width: 400px) {
+  /* Logo adjustments */
+  .logo-img {
+    height: 30px; /* Slightly larger than for 320px */
+    width: 50px; /* Maintain aspect ratio */
+  }
+
+  .store-logo {
+    padding: 5px; /* Slightly more padding than for 320px */
+  }
+
+
+  .navbar{
+    position: relative;
+    margin-top: -25px;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* padding: 10px 20px 0px -200px; */
+    height: 120px; 
+  }
+
+}
+
+
+
+
+
+
+
+
+@media screen   and (min-width: 220px)   and (max-width: 320px) {
+  /* Logo adjustments */
+  .logo-img {
+    height: 30px; /* Slightly larger than for 320px */
+    width: 50px; /* Maintain aspect ratio */
+  }
+
+  .store-logo {
+    padding: 5px; /* Slightly more padding than for 320px */
+  }
+
+
+  .navbar{
+    position: relative;
+    margin-top: -25px;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* padding: 10px 20px 0px -200px; */
+    height: 120px; 
+  }
+
+}

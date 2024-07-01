@@ -1,0 +1,81 @@
+.outercartline {
+  position: relative;
+  top: 100px;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  .Cartimg {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+  }
+
+  .Carttitle {
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+  /*   
+  .outercartline > div {
+    margin-right: 10px;
+  }
+  
+
+  
+
+  
+  .CartPrice {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  
+   */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   @media only screen and (max-width: 320px) {
+  .outercartline {
+    position: relative;
+    top: 200px;
+    grid-template-columns: 1fr; /* Single column layout */
+    padding: 5px; /* Reduce padding */
+    gap: 10px; /* Add gap between grid items */
+    text-align: center; /* Center-align content for better readability */
+  }
+
+  .Cartimg {
+    width: 40px; /* Slightly reduce image width */
+    height: 40px; /* Slightly reduce image height */
+    margin-bottom: 5px; /* Add some space below the image */
+  }
+
+  .Carttitle {
+    font-size: 12px; 
+    margin-bottom: 5px; 
+  }
+
+  .CartPrice {
+    font-size: 14px; 
+    font-weight: bold; 
+  }
+
+  .outercartline > div {
+    margin-bottom: 5px; /* Add space below each grid item */
+  }
+}

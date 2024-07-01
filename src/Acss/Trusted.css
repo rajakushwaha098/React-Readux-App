@@ -1,0 +1,42 @@
+.container {
+    margin-top: 20px;
+  }
+  
+  .brand-section-slider {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 20px 0;
+  }
+  
+  .slide {
+    flex-shrink: 0;
+  }
+  
+  .slide img {
+    width: 150px;
+    height: auto;
+  }
+  
+
+
+
+
+
+
+
+
+
+  @media (max-width: 320px) {
+    .brand-section-slider {
+      display: grid;
+      grid-template-columns: 1fr 1fr ;
+      grid-template-rows: 1fr 1fr;
+      gap: 5px; /* Minimal gap between slides */
+      padding: 5px 0; /* Minimal padding */
+    }
+  
+    .slide img {
+      width: 50px; /* Further reduce image width */
+    }
+  }

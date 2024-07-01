@@ -1,0 +1,46 @@
+
+.cart_heading {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    font-weight: bold;
+    padding: 0px 0;
+    /* border-bottom: 1px solid #ccc; */
+}
+
+
+
+
+
+
+
+.cart-map {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    /* justify-content: space-between;  */
+    /* align-items: center;  */
+}
+
+/* 
+
+@media only screen and (max-width: 320px) {
+
+    .parasubTotal{
+        display: none;
+    }
+
+    .paraShiping{
+        display: none;
+    }
+     
+    .paraorder{
+       
+            display: none;
+    }
+      .cart_heading{
+        display: none;
+    }
+      }
+         
+    
+
+ */

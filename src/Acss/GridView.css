@@ -1,0 +1,12 @@
+.grid-three-column{
+    position: relative;
+    top: 50px;
+    
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr); */
+    
+   
+  
+  
+  }
+

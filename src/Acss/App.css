@@ -1,0 +1,124 @@
+
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+.forAllComponents{
+  position: absolute;
+  top: 150px;
+}
+
+/* .AllhW{
+ 
+  border: bold;
+  height: 100%;
+  width: 100%;
+  color: #0b1255;
+
+} */
+
+
+:root {
+  --heading: rgb(24, 24, 29);
+  --text: rgba(29, 29, 29, 0.8);
+  --white: #fff;
+  --black: #212529;
+  --helper: #8490ff;
+  
+  --bg: #f6f8fa;
+  --footer-bg: #0a1435;
+  --btn: rgb(98, 84, 243);
+  --border: rgba(98, 84, 243, 0.5);
+  --hr: #ffffff;
+  --gradient: linear-gradient(0deg, rgb(132, 144, 255) 0%, rgb(98, 189, 252) 100%);
+  --shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  --shadow-support: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+/* Header css */
+/* non responsive */
+
+.headerCss{
+  position: fixed; 
+  top: 0; 
+  
+  /* left: 20px;  */
+  z-index: 1; 
+  background-color:#ff0000;
+  height: 15%; 
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+
+
+
+.NavbarCss {
+  position: relative;
+  /* margin-top: 7%; */
+  
+} 
+
+
+
+
+
+
+/* non responsive*/
+
+.footerCss{
+  position: relative; 
+
+  bottom: -180px;
+  /* left: 20px;  */
+  /* z-index: 1;  */
+  background-color:#ff0000;
+  height: 380px; 
+  width: 100%;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 320px) {
+  .footerCss{
+    position: absolute; 
+  top: 200%; 
+  
+  /* left: 20px;  */
+  /* z-index: 1;  */
+  background-color:#ff0000;
+  height: 480px; 
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+  }
+  .headerCss{
+    position: absolute; 
+    /* top: -0%;  */
+    
+    /* left: 20px;  */
+    z-index: 1; 
+    background-color:#ff0000;
+    height: 70px; 
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
