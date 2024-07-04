@@ -1,4 +1,4 @@
-/* Container styles */
+
 
 .container {
   position: relative;
@@ -8,20 +8,20 @@ top: 100px;
     padding: 0 20px;
   }
   
-  /* Grid styles */
+ 
   .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
   }
   
-  /* Product images styles */
+
   .product_images img {
     width: 100%;
     height: auto;
   }
   
-  /* Product data styles */
+ 
   .product-data {
     display: flex;
     flex-direction: column;
@@ -38,14 +38,14 @@ top: 100px;
   
   .product-data-price.product-data-real-price {
     font-weight: bold;
-    color: #ff0000; /* Red color for deal of the day price */
+    color: #ff0000; 
   }
   
   .product-data p {
     margin-bottom: 10px;
   }
   
-  /* Product warranty styles */
+
   .product-data-warranty {
     display: flex;
     flex-wrap: wrap;

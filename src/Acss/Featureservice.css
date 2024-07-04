@@ -1,11 +1,12 @@
 .feature-products {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 columns grid */
-  gap: 20px; /* Space between grid items */
-  padding: 20px; /* Overall padding around the grid */
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px; 
+  padding: 20px;
+
 }
 
-/* Card style for individual products */
+
 .feature-products > div {
   background: #fff;
   border: 1px solid #ddd;

@@ -6,6 +6,8 @@ import { firstLoadArray } from '../redux/CartSlice';
 import GridView from "./GridView";
 import FilterSection from '../Components/FilterSection';
 import Sort from '../Components/Sort';
+import "../Acss/produtlist.css";
+
 
 const ProductList = () => {
   const {products,filterData} = useSelector((state) => state.cart);
@@ -24,9 +26,15 @@ console.log("products",products)
       <div>
         {/* {filterData.length} */}
       </div>
+      <div className='filterCSS'>
       <FilterSection/>
+      </div>
+   
       {/* <Sort/> */}
-         <GridView products={products}/>
+      <div className='gridCss'>
+      <GridView products={products}/>
+      </div>
+     
       {/* Home <ListView products={products} /> */}
     
     </div>

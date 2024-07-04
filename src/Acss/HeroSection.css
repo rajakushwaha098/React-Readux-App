@@ -1,5 +1,11 @@
 /* Base styles for the Hero Section */
-.grid-grid-two-column {
+.herosactionpossition{
+  position: relative;
+  top: 90px;
+
+}
+.grid-grid-two-columnH {
+  /* position: absolute; */
   display: grid;
   grid-template-columns: 1fr 1fr; /* Two equal columns */
   gap: 20px; /* Gap between columns */
@@ -9,7 +15,7 @@
   box-sizing: border-box; /* Include padding and border in element's width and height */
 }
 
-.hero-section-data {
+.hero-section-dataH {
   text-align: left; /* Align text to the left */
   padding: 20px; /* Padding around the text content */
   background-color: #fff; /* White background for the text area */
@@ -17,20 +23,20 @@
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Light shadow for a floating effect */
 }
 
-.welcomeCss {
+.welcomeCssH {
   font-size: 24px; /* Larger font size for the welcome message */
   color: #333; /* Darker color for text */
   margin-bottom: 10px; /* Space below the welcome message */
 }
 
-.shineName {
+.shineNameH {
   font-size: 36px; /* Larger font size for the name */
   font-weight: bold; /* Bold text */
   color: #ff0000; /* Red color for the name */
   margin-bottom: 20px; /* Space below the name */
 }
 
-.paraCss {
+.paraCssH {
   font-size: 16px; /* Standard font size for paragraph */
   color: #666; /* Slightly lighter color for text */
   line-height: 1.5; /* Space out lines a bit more */
@@ -52,14 +58,14 @@ button:hover {
   background-color: #cc0000; /* Darker red on hover */
 }
 
-.hero-section-image {
+.hero-section-imageH {
   display: flex;
   justify-content: center; /* Center the image horizontally */
   align-items: center; /* Center the image vertically */
   padding: 20px; /* Padding around the image */
 }
 
-.img-style {
+.img-styleH {
   max-width: 100%; /* Ensure image doesn't exceed container width */
   height: auto; /* Maintain aspect ratio */
   border-radius: 10px; /* Slightly rounded corners for the image */
@@ -70,19 +76,19 @@ button:hover {
 
 /* For tablets and larger phones (768px and up) */
 @media (max-width: 768px) {
-  .grid-grid-two-column {
+  .grid-grid-two-columnH{
     grid-template-columns: 1fr; /* Stack columns on top of each other */
   }
-  .hero-section-data, .hero-section-image {
+  .hero-section-dataH, .hero-section-imageH {
     text-align: center; /* Center text and content for smaller screens */
   }
-  .welcomeCss {
+  .welcomeCssH {
     font-size: 20px; /* Slightly smaller font size for smaller screens */
   }
-  .shineName {
+  .shineNameH {
     font-size: 28px; /* Slightly smaller font size for smaller screens */
   }
-  .paraCss {
+  .paraCssH {
     font-size: 14px; /* Slightly smaller font size for smaller screens */
   }
   button {
@@ -92,16 +98,16 @@ button:hover {
 
 /* For phones (480px and up) */
 @media (max-width: 480px) {
-  .grid-grid-two-column {
+  .grid-grid-two-columnH {
     padding: 10px; /* Reduce padding for small screens */
   }
-  .welcomeCss {
+  .welcomeCssH {
     font-size: 18px; /* Further reduce font size */
   }
-  .shineName {
+  .shineNameH {
     font-size: 24px; /* Further reduce font size */
   }
-  .paraCss {
+  .paraCssH {
     font-size: 12px; /* Further reduce font size */
   }
   button {

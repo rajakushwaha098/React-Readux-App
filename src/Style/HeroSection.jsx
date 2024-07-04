@@ -6,14 +6,16 @@ const HeroSection = ({ myData }) => {
   return (
 
      
+<div className="herosactionpossition">
 
-        <div className="grid-grid-two-column">
 
-      <div className="hero-section-data">
-              <div className="welcomeCss">Welcome to </div>
-            <p className="shineName"> {name} </p>
+        <div className="grid-grid-two-columnH">
+
+      <div className="hero-section-dataH">
+              <div className="welcomeCssH">Welcome to </div>
+            <p className="shineNameH"> {name} </p>
             {/* <h1> Raja Store</h1> */}
-            <div className="paraCss">
+            <div className="paraCssH">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. 
               <br/>Molestias
               atque temporibus veniam doloribus libero
@@ -23,11 +25,11 @@ const HeroSection = ({ myData }) => {
             <NavLink>
               <button>show now</button>
             </NavLink>
-            <div className="hero-section-image">
+            <div className="hero-section-imageH">
             <img 
                 src="images/hero.jpg"
                 alt="hero-section-photo"
-                className="img-style"
+                className="img-styleH"
               />
             </div>
          
@@ -44,7 +46,7 @@ const HeroSection = ({ myData }) => {
 
         </div>
     
-
+        </div>
   );
 };
 
