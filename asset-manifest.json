@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-tip/static/css/main.08868381.css",
-    "main.js": "/react-tip/static/js/main.b2d090b8.js",
-    "static/js/787.34115356.chunk.js": "/react-tip/static/js/787.34115356.chunk.js",
-    "index.html": "/react-tip/index.html",
-    "main.08868381.css.map": "/react-tip/static/css/main.08868381.css.map",
-    "main.b2d090b8.js.map": "/react-tip/static/js/main.b2d090b8.js.map",
-    "787.34115356.chunk.js.map": "/react-tip/static/js/787.34115356.chunk.js.map"
+    "main.css": "/React-Readux-App/static/css/main.08868381.css",
+    "main.js": "/React-Readux-App/static/js/main.c4f63835.js",
+    "static/js/787.34115356.chunk.js": "/React-Readux-App/static/js/787.34115356.chunk.js",
+    "index.html": "/React-Readux-App/index.html",
+    "main.08868381.css.map": "/React-Readux-App/static/css/main.08868381.css.map",
+    "main.c4f63835.js.map": "/React-Readux-App/static/js/main.c4f63835.js.map",
+    "787.34115356.chunk.js.map": "/React-Readux-App/static/js/787.34115356.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.08868381.css",
-    "static/js/main.b2d090b8.js"
+    "static/js/main.c4f63835.js"
   ]
 }
