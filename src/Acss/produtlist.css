@@ -1,14 +1,13 @@
 .filterCSS{
     position: absolute;
     top: 100px;
-    /* background-color: aqua; */
-    /* height: 300px;
-    width: 400px; */
+ 
 }
-/* .gridCss{
-    position: absolute;
-    top: 100px;
-    background-color: aqua; 
-     height: 300px;
-    width: 400px;
-} */
+
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+    .filterCSS{
+        position: absolute;
+        top: 100px;
+     
+    }
+}

@@ -8,7 +8,7 @@ import { FaDiscord, FaInstagram, FaYoutube } from "react-icons/fa";
 const Footer = () => {
   return (
       
-    <div> 
+    <div  className="for400footer"> 
       
       
 

@@ -1,13 +1,4 @@
-/* .grid-four-columnF{
-  position: fixed; 
 
-  bottom: 0px;
- 
-  background-color:#ff0000;
-  height: 250px; 
-  width: 100%;
- 
-} */
 
 .nameSubribe{
   display: grid;
@@ -16,7 +7,7 @@
   row-gap: 3px;
 background-color: #ccc;
 height: 60%;
-width: 110%;  
+width: 100%;  
 
 }
 
@@ -47,12 +38,7 @@ width: 110%;
 
 
 /* For small screens (mobile phones) */
-@media (max-width: 767px) {
-  .nameSubribe {
-    grid-template-columns: 1fr 1fr 1fr; /* 1 column */
-    width: 100%; /* Adjust width to fit screen */
-  }
-}
+
 
 /* For very small screens (like 320px width) */
 @media (max-width: 320px) {
@@ -75,4 +61,19 @@ width: 110%;
 
 
 
-/* footer-subscribeF */
+
+
+/* @media  screen and (min-with:320) and (max-width: 380px) {
+  .for400footer{
+    position: absolute; 
+  top: 150%; 
+ 
+  
+  
+  background-color:#ff0000;
+  height: 100px; 
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+  }
+} */

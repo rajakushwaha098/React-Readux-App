@@ -85,20 +85,11 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
 @media screen and (max-width: 320px) {
+  
   .footerCss{
     position: absolute; 
-  top: 400%; 
+  top: 270%; 
  
   
   
@@ -119,3 +110,36 @@
     margin-right: 0px;
   }
 }
+
+
+
+@media screen and (min-width: 320px) and (max-width: 500px) {
+ 
+ 
+  .footerCss {
+    position: absolute;
+    top: 280%; 
+    background-color: #ff0000;
+    height: 100px; 
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .headerCss{
+    /* position: absolute; 
+     top: 510%; 
+   
+    z-index: 1;  */
+    background-color:#ff0000;
+    height: 55px; 
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+
+
+
+

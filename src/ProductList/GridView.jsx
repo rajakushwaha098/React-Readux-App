@@ -33,7 +33,7 @@ return (
         filter
         </button> */}
 
-                 <div className="grid-three-column">
+                 <div className="ProductsSecPagPossinattion">
                 {data?.map((curElem) => (
               <ProductsSecPage key={curElem.id} curElem={curElem} />
               ))}

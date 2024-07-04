@@ -102,3 +102,77 @@
     width: 50%; /* Maintain full width */
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+  .filter-search input[type="text"],
+  .filter-company select,
+  .filter-price select {
+    width: 70%;
+    font-size: 16px; 
+  }
+
+  .filter-category button,
+  .filter-price button {
+    width: 70%; 
+    padding: 8px 12px; 
+    margin-right: 0; 
+    margin-bottom: 12px; 
+    font-size: 16px; 
+  }
+
+  .filter-category,
+  .filter-company,
+  .filter-price {
+    margin-bottom: 20px; 
+  }
+
+  .filter-category h3,
+  .filter-company h3,
+  .filter-price h3 {
+    font-size: 18px; 
+    margin-bottom: 10px; 
+  }
+
+  .filter-price input[type="range"] {
+    width: 70%; 
+  }
+} */

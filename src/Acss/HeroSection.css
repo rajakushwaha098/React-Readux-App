@@ -97,7 +97,7 @@ button:hover {
 }
 
 /* For phones (480px and up) */
-@media (max-width: 480px) {
+@media screen and (min-width:320px) and (max-width: 480px) {
   .grid-grid-two-columnH {
     padding: 10px; /* Reduce padding for small screens */
   }
