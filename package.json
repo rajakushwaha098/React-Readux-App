@@ -2,7 +2,7 @@
   "name": "ecom",
   "version": "0.1.0",
   "private": false,
-  "homepage": "http://rajakushwaha098.github.io/React-Redux-App",
+  "homepage": "http://rajakushwaha098.github.io/React-Readux-App",
   "dependencies": {
     "@auth0/auth0-react": "^1.10.2",
     "@reduxjs/toolkit": "^2.2.1",
